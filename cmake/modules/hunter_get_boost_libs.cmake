@@ -52,6 +52,7 @@ function(hunter_get_boost_libs)
 
   # DOCUMENTATION_START {
   hunter_append_component(${common_args} COMPONENT atomic          SINCE 1.53.0)
+  hunter_append_component(${common_args} COMPONENT charconv        SINCE 1.86.0)
   hunter_append_component(${common_args} COMPONENT chrono          SINCE 1.47.0)
   hunter_append_component(${common_args} COMPONENT charconv        SINCE 1.85.0)
   hunter_append_component(${common_args} COMPONENT cobalt          SINCE 1.84.0)
@@ -90,6 +91,7 @@ function(hunter_get_boost_libs)
   hunter_append_component(${common_args} COMPONENT type_erasure    SINCE 1.60.0)
   hunter_append_component(${common_args} COMPONENT url             SINCE 1.81.0)
   hunter_append_component(${common_args} COMPONENT wave            SINCE 1.33.0)
+  hunter_append_component(${common_args} COMPONENT predef          SINCE 1.86.0)
   # DOCUMENTATION_END }
 
   # set output_var to found definition
