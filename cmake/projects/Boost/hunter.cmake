@@ -151,7 +151,7 @@ hunter_add_version(
     VERSION
     "1.84.0"
     URL
-    "https://boostorg.jfrog.io/artifactory/main/release/1.84.0/source/boost_1_84_0.tar.bz2"
+    "https://archives.boost.io/release/1.84.0/source/boost_1_84_0.tar.bz2"
     SHA1
     734dcfb452380a4d6304060dc2ed983668dd290f
 )
@@ -161,7 +161,7 @@ hunter_add_version(
     VERSION
     "1.85.0"
     URL
-    "https://boostorg.jfrog.io/artifactory/main/release/1.85.0/source/boost_1_85_0.tar.bz2"
+    "https://archives.boost.io/release/1.85.0/source/boost_1_85_0.tar.bz2"
     SHA1
     ed58c632befe0d299b39f9e23de1fc20d03870d7
 )
@@ -172,7 +172,7 @@ hunter_add_version(
     VERSION
     "1.86.0"
     URL
-    "https://boostorg.jfrog.io/artifactory/main/release/1.86.0/source/boost_1_86_0.tar.bz2"
+    "https://archives.boost.io/release/1.86.0/source/boost_1_86_0.tar.bz2"
     SHA1
     fd0d26a7d5eadf454896942124544120e3b7a38f
 )
