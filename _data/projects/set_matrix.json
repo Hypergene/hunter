@@ -1,0 +1,94 @@
+[
+    {
+        "id": 51986477751,
+        "run_id": 18259931994,
+        "workflow_name": "CI",
+        "head_branch": "update_cmake",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/18259931994",
+        "run_attempt": 1,
+        "node_id": "CR_kwDONbfIZs8AAAAMGqKytw",
+        "head_sha": "8dd47482e04fae42eabb9ce1b715d37e81e3a9f0",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/51986477751",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/18259931994/job/51986477751",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2025-10-05T14:15:02Z",
+        "started_at": "2025-10-05T14:15:04Z",
+        "completed_at": "2025-10-05T14:15:10Z",
+        "name": "set_matrix",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2025-10-05T14:15:05Z",
+                "completed_at": "2025-10-05T14:15:06Z"
+            },
+            {
+                "name": "Git checkout",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2025-10-05T14:15:06Z",
+                "completed_at": "2025-10-05T14:15:07Z"
+            },
+            {
+                "name": "Manual dispatch, get project name from input",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 3,
+                "started_at": "2025-10-05T14:15:07Z",
+                "completed_at": "2025-10-05T14:15:07Z"
+            },
+            {
+                "name": "Get changed files and save them to ${HOME}/files.json",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2025-10-05T14:15:07Z",
+                "completed_at": "2025-10-05T14:15:07Z"
+            },
+            {
+                "name": "Set matrix for subsequent build",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2025-10-05T14:15:07Z",
+                "completed_at": "2025-10-05T14:15:08Z"
+            },
+            {
+                "name": "Run actions/upload-artifact@v4",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2025-10-05T14:15:08Z",
+                "completed_at": "2025-10-05T14:15:08Z"
+            },
+            {
+                "name": "Post Git checkout",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12,
+                "started_at": "2025-10-05T14:15:08Z",
+                "completed_at": "2025-10-05T14:15:08Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13,
+                "started_at": "2025-10-05T14:15:08Z",
+                "completed_at": "2025-10-05T14:15:08Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/51986477751",
+        "labels": [
+            "ubuntu-latest"
+        ],
+        "runner_id": 1000001126,
+        "runner_name": "GitHub Actions 1000001126",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    }
+]
