@@ -560,6 +560,17 @@ hunter_add_version(
     fd0d26a7d5eadf454896942124544120e3b7a38f
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    Boost
+    VERSION
+    "1.89.0"
+    URL
+    "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2"
+    SHA1
+    4d90df32710969677032f33f7468bce3c9f9ac66
+)
+
 if(MSVC)
   hunter_check_toolchain_definition(NAME "_DLL" DEFINED _hunter_vs_md)
   hunter_cmake_args(
