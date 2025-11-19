@@ -1,0 +1,56 @@
+[
+    {
+        "id": 55689667849,
+        "run_id": 19462450432,
+        "workflow_name": "CI",
+        "head_branch": "tasks/hyp-22804-update-python",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/19462450432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDONbfIZs8AAAAM91zlCQ",
+        "head_sha": "814363f240793881e8a7b02a11615f18c3d0a6d5",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/55689667849",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/19462450432/job/55689667849",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "created_at": "2025-11-18T10:17:49Z",
+        "started_at": "2025-11-18T10:17:49Z",
+        "completed_at": "2025-11-19T10:17:51Z",
+        "name": "Boost-chrono-useBoostConfig android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
+        "steps": [],
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/55689667849",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 0,
+        "runner_name": "",
+        "runner_group_id": 0,
+        "runner_group_name": ""
+    },
+    {
+        "id": 55689667828,
+        "run_id": 19462450432,
+        "workflow_name": "CI",
+        "head_branch": "tasks/hyp-22804-update-python",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/19462450432",
+        "run_attempt": 1,
+        "node_id": "CR_kwDONbfIZs8AAAAM91zk9A",
+        "head_sha": "814363f240793881e8a7b02a11615f18c3d0a6d5",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/55689667828",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/19462450432/job/55689667828",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "created_at": "2025-11-18T10:17:49Z",
+        "started_at": "2025-11-19T10:17:51Z",
+        "completed_at": "2025-11-19T10:17:51Z",
+        "name": "Boost-chrono-useBoostConfig ios-nocodesign-15-5-arm64-cxx17 macos-12",
+        "steps": [],
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/55689667828",
+        "labels": [
+            "macos-12"
+        ],
+        "runner_id": 0,
+        "runner_name": "",
+        "runner_group_id": 0,
+        "runner_group_name": ""
+    }
+]
