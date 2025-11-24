@@ -181,6 +181,17 @@ hunter_add_version(
     PACKAGE_NAME
     Boost
     VERSION
+    "1.88.0"
+    URL
+    "https://archives.boost.io/release/1.88.0/source/boost_1_88_0.tar.bz2"
+    SHA1
+    72c3d9f9231d737a2ae5b5f422945527f0c688d7
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Boost
+    VERSION
     "1.89.0"
     URL
     "https://archives.boost.io/release/1.89.0/source/boost_1_89_0.tar.bz2"
