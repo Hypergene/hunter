@@ -10,7 +10,7 @@ on:
 jobs:
 
   docs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
 
@@ -19,17 +19,10 @@ jobs:
       with:
         submodules: true
 
-    - name: Set up Python
-      uses: actions/setup-python@v5.1.0
-      with:
-        python-version: 3.8
-
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install virtualenv
+        docs/build_docs.sh --install-deps --skip-build
 
-    - name: Run test script
+    - name: Build docs
       run: |
-        cd docs
-        ./jenkins.sh
+        docs/build_docs.sh

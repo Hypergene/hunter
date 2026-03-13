@@ -29,14 +29,8 @@
  * Module to test ASCII tags read/write functions.
  */
 
-#include "tif_config.h"
-
 #include <stdio.h>
 #include <string.h>
-
-#ifdef HAVE_UNISTD_H
-# include <unistd.h>
-#endif
 
 #include "tiffio.h"
 
@@ -162,7 +156,7 @@ main()
   TIFFClose(tif);
 
   /* All tests passed; delete file and exit with success status. */
-  unlink(filename);
+  remove(filename);
   return 0;
 
 failure:

@@ -1,16 +1,17 @@
-# Copyright (c) 2016, Ruslan Baratov
+# Copyright (c) 2025, Dominik Nussbaumer
 # All rights reserved.
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(Boost_DEBUG ON CACHE BOOLEAN "")
 
 # Emulate HunterGate:
-# * https://github.com/hunter-packages/gate
+# * https://github.com/cpp-pm/gate
 include("../common.cmake")
 
-project(example-boost-process)
-
-hunter_add_package(BoostProcess)
-find_package(BoostProcess CONFIG REQUIRED)
+project(download-boost)
+hunter_add_package(Boost COMPONENTS process)
+find_package(Boost CONFIG REQUIRED process)
 
 add_executable(foo foo.cpp)
-target_link_libraries(foo PUBLIC BoostProcess::boost_process)
+target_link_libraries(foo PUBLIC Boost::process)

@@ -1,7 +1,8 @@
 # Copyright (c) 2013-2015, Ruslan Baratov
+# Copyright (c) 2025, NeroBurner
 # All rights reserved.
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
 # Emulate HunterGate:
 # * https://github.com/hunter-packages/gate
@@ -10,8 +11,8 @@ include("../common.cmake")
 
 project(download-boost)
 
-hunter_add_package(Boost COMPONENTS system filesystem)
-find_package(Boost CONFIG REQUIRED system filesystem)
+# download boost
+hunter_add_package(Boost COMPONENTS filesystem)
 
 add_executable(foo foo.cpp)
-target_link_libraries(foo PUBLIC Boost::system Boost::filesystem)
+target_link_libraries(foo Boost::filesystem)

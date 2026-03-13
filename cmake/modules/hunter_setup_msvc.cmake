@@ -1,7 +1,7 @@
 # Copyright (c) 2014-2016, Ruslan Baratov, Sumedh Ghaisas
 # All rights reserved.
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
 include(hunter_fatal_error)
 include(hunter_internal_error)
@@ -211,6 +211,12 @@ macro(hunter_setup_msvc)
           set(_hunter_vcvarsall_path
               "${_hunter_vcvarsall_path}/../../../VC/Auxiliary/Build"
           )
+          if (NOT EXISTS "${_hunter_vcvarsall_path}/vcvarsall.bat")
+            # VS 2022 Build Tools has it here
+            set(_hunter_vcvarsall_path
+              "${_hunter_vcvarsall_path}/../../../../VC/Auxiliary/Build"
+            )
+          endif()
         else()
           hunter_fatal_error(
               "Incorrect MSVC setup:"

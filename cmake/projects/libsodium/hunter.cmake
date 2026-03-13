@@ -41,6 +41,17 @@ hunter_add_version(
     d986ca5b9759d6518df26248f03db44d4dc9f590
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    libsodium
+    VERSION
+    "1.0.18-p0"
+    URL
+    "https://github.com/cpp-pm/libsodium/archive/refs/tags/v1.0.18-p0.tar.gz"
+    SHA1
+    0fafd2219825c6a9d62205b1e921c816b3e94113
+)
+
 string(COMPARE EQUAL "${HUNTER_libsodium_VERSION}" "1.0.10" __is_1_0_10)
 string(COMPARE EQUAL "${HUNTER_libsodium_VERSION}" "1.0.16" __is_1_0_16)
 
