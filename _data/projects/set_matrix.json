@@ -1,20 +1,20 @@
 [
     {
-        "id": 66922167411,
-        "run_id": 23042010582,
+        "id": 66922455177,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN88cw",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922167411",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922167411",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOOgiQ",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922455177",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922455177",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-03-13T08:10:48Z",
-        "started_at": "2026-03-13T08:10:50Z",
-        "completed_at": "2026-03-13T08:10:58Z",
+        "created_at": "2026-03-13T08:13:38Z",
+        "started_at": "2026-03-13T08:14:27Z",
+        "completed_at": "2026-03-13T08:14:34Z",
         "name": "set_matrix",
         "steps": [
             {
@@ -22,72 +22,72 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:10:51Z",
-                "completed_at": "2026-03-13T08:10:53Z"
+                "started_at": "2026-03-13T08:14:28Z",
+                "completed_at": "2026-03-13T08:14:30Z"
             },
             {
                 "name": "Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:10:53Z",
-                "completed_at": "2026-03-13T08:10:54Z"
+                "started_at": "2026-03-13T08:14:30Z",
+                "completed_at": "2026-03-13T08:14:31Z"
             },
             {
                 "name": "Manual dispatch, get project name from input",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 3,
-                "started_at": "2026-03-13T08:10:54Z",
-                "completed_at": "2026-03-13T08:10:54Z"
+                "started_at": "2026-03-13T08:14:31Z",
+                "completed_at": "2026-03-13T08:14:31Z"
             },
             {
                 "name": "Get changed files and save them to ${HOME}/files.json",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:10:54Z",
-                "completed_at": "2026-03-13T08:10:55Z"
+                "started_at": "2026-03-13T08:14:31Z",
+                "completed_at": "2026-03-13T08:14:31Z"
             },
             {
                 "name": "Set matrix for subsequent build",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-03-13T08:10:55Z",
-                "completed_at": "2026-03-13T08:10:55Z"
+                "started_at": "2026-03-13T08:14:31Z",
+                "completed_at": "2026-03-13T08:14:31Z"
             },
             {
                 "name": "Run actions/upload-artifact@v4",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2026-03-13T08:10:55Z",
-                "completed_at": "2026-03-13T08:10:56Z"
+                "started_at": "2026-03-13T08:14:31Z",
+                "completed_at": "2026-03-13T08:14:32Z"
             },
             {
                 "name": "Post Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 12,
-                "started_at": "2026-03-13T08:10:56Z",
-                "completed_at": "2026-03-13T08:10:56Z"
+                "started_at": "2026-03-13T08:14:32Z",
+                "completed_at": "2026-03-13T08:14:33Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 13,
-                "started_at": "2026-03-13T08:10:56Z",
-                "completed_at": "2026-03-13T08:10:56Z"
+                "started_at": "2026-03-13T08:14:33Z",
+                "completed_at": "2026-03-13T08:14:33Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922167411",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922455177",
         "labels": [
             "ubuntu-latest"
         ],
-        "runner_id": 1000017225,
-        "runner_name": "GitHub Actions 1000017225",
+        "runner_id": 1000017296,
+        "runner_name": "GitHub Actions 1000017296",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     }

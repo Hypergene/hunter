@@ -1,268 +1,20 @@
 [
     {
-        "id": 66922187209,
-        "run_id": 23042010582,
+        "id": 66922557347,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-JyQ",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187209",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187209",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUvow",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557347",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557347",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:01Z",
-        "completed_at": "2026-03-13T08:15:00Z",
-        "name": "Boost-chrono android-ndk-api-35-arm64-v8a-libcxx14 ubuntu-24.04",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2026-03-13T08:11:02Z",
-                "completed_at": "2026-03-13T08:11:03Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2026-03-13T08:11:03Z",
-                "completed_at": "2026-03-13T08:11:05Z"
-            },
-            {
-                "name": "Download all workflow run artifacts",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2026-03-13T08:11:05Z",
-                "completed_at": "2026-03-13T08:11:05Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2026-03-13T08:11:05Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 5,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 6,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Install requests python module for upload script",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:11Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 8,
-                "started_at": "2026-03-13T08:11:11Z",
-                "completed_at": "2026-03-13T08:14:59Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 9,
-                "started_at": "2026-03-13T08:14:59Z",
-                "completed_at": "2026-03-13T08:14:59Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2026-03-13T08:14:59Z",
-                "completed_at": "2026-03-13T08:14:59Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 18,
-                "started_at": "2026-03-13T08:14:59Z",
-                "completed_at": "2026-03-13T08:14:59Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 19,
-                "started_at": "2026-03-13T08:14:59Z",
-                "completed_at": "2026-03-13T08:14:59Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187209",
-        "labels": [
-            "ubuntu-24.04"
-        ],
-        "runner_id": 1000017230,
-        "runner_name": "GitHub Actions 1000017230",
-        "runner_group_id": 0,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 66922187166,
-        "run_id": 23042010582,
-        "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
-        "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-Jng",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187166",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187166",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:01Z",
-        "completed_at": "2026-03-13T08:15:09Z",
-        "name": "Boost-chrono clang-cxx17 ubuntu-24.04",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2026-03-13T08:11:02Z",
-                "completed_at": "2026-03-13T08:11:03Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2026-03-13T08:11:03Z",
-                "completed_at": "2026-03-13T08:11:05Z"
-            },
-            {
-                "name": "Download all workflow run artifacts",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2026-03-13T08:11:05Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 5,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 6,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:06Z"
-            },
-            {
-                "name": "Install requests python module for upload script",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2026-03-13T08:11:06Z",
-                "completed_at": "2026-03-13T08:11:10Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 8,
-                "started_at": "2026-03-13T08:11:10Z",
-                "completed_at": "2026-03-13T08:15:08Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 9,
-                "started_at": "2026-03-13T08:15:08Z",
-                "completed_at": "2026-03-13T08:15:08Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2026-03-13T08:15:08Z",
-                "completed_at": "2026-03-13T08:15:08Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 18,
-                "started_at": "2026-03-13T08:15:08Z",
-                "completed_at": "2026-03-13T08:15:08Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 19,
-                "started_at": "2026-03-13T08:15:08Z",
-                "completed_at": "2026-03-13T08:15:08Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187166",
-        "labels": [
-            "ubuntu-24.04"
-        ],
-        "runner_id": 1000017229,
-        "runner_name": "GitHub Actions 1000017229",
-        "runner_group_id": 0,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 66922187186,
-        "run_id": 23042010582,
-        "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
-        "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-Jsg",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187186",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187186",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:01Z",
-        "completed_at": "2026-03-13T08:14:46Z",
+        "conclusion": "failure",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:21:27Z",
+        "completed_at": "2026-03-13T08:22:49Z",
         "name": "Boost-chrono gcc-12-cxx17 ubuntu-24.04",
         "steps": [
             {
@@ -270,123 +22,123 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:11:02Z",
-                "completed_at": "2026-03-13T08:11:04Z"
+                "started_at": "2026-03-13T08:21:28Z",
+                "completed_at": "2026-03-13T08:21:30Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:11:04Z",
-                "completed_at": "2026-03-13T08:11:07Z"
+                "started_at": "2026-03-13T08:21:30Z",
+                "completed_at": "2026-03-13T08:21:34Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:11:07Z",
-                "completed_at": "2026-03-13T08:11:08Z"
+                "started_at": "2026-03-13T08:21:34Z",
+                "completed_at": "2026-03-13T08:21:35Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:11:08Z",
-                "completed_at": "2026-03-13T08:11:08Z"
+                "started_at": "2026-03-13T08:21:35Z",
+                "completed_at": "2026-03-13T08:21:35Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-03-13T08:11:08Z",
-                "completed_at": "2026-03-13T08:11:08Z"
+                "started_at": "2026-03-13T08:21:35Z",
+                "completed_at": "2026-03-13T08:21:35Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 6,
-                "started_at": "2026-03-13T08:11:08Z",
-                "completed_at": "2026-03-13T08:11:08Z"
+                "started_at": "2026-03-13T08:21:35Z",
+                "completed_at": "2026-03-13T08:21:35Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:11:08Z",
-                "completed_at": "2026-03-13T08:11:13Z"
+                "started_at": "2026-03-13T08:21:35Z",
+                "completed_at": "2026-03-13T08:21:37Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "failure",
                 "number": 8,
-                "started_at": "2026-03-13T08:11:13Z",
-                "completed_at": "2026-03-13T08:14:43Z"
+                "started_at": "2026-03-13T08:21:37Z",
+                "completed_at": "2026-03-13T08:22:46Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 9,
-                "started_at": "2026-03-13T08:14:43Z",
-                "completed_at": "2026-03-13T08:14:43Z"
+                "started_at": "2026-03-13T08:22:46Z",
+                "completed_at": "2026-03-13T08:22:46Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:14:43Z",
-                "completed_at": "2026-03-13T08:14:43Z"
+                "started_at": "2026-03-13T08:22:46Z",
+                "completed_at": "2026-03-13T08:22:46Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:14:43Z",
-                "completed_at": "2026-03-13T08:14:43Z"
+                "started_at": "2026-03-13T08:22:46Z",
+                "completed_at": "2026-03-13T08:22:46Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:14:43Z",
-                "completed_at": "2026-03-13T08:14:43Z"
+                "started_at": "2026-03-13T08:22:46Z",
+                "completed_at": "2026-03-13T08:22:46Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187186",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557347",
         "labels": [
             "ubuntu-24.04"
         ],
-        "runner_id": 1000017232,
-        "runner_name": "GitHub Actions 1000017232",
+        "runner_id": 1000017402,
+        "runner_name": "GitHub Actions 1000017402",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 66922187170,
-        "run_id": 23042010582,
+        "id": 66922557323,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-Jog",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187170",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187170",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUviw",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557323",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557323",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:13Z",
-        "completed_at": "2026-03-13T08:14:55Z",
+        "conclusion": "failure",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:20:27Z",
+        "completed_at": "2026-03-13T08:21:44Z",
         "name": "Boost-chrono gcc-13-cxx17-fpic ubuntu-24.04",
         "steps": [
             {
@@ -394,247 +146,123 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:11:14Z",
-                "completed_at": "2026-03-13T08:11:15Z"
+                "started_at": "2026-03-13T08:20:28Z",
+                "completed_at": "2026-03-13T08:20:30Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:11:15Z",
-                "completed_at": "2026-03-13T08:11:18Z"
+                "started_at": "2026-03-13T08:20:30Z",
+                "completed_at": "2026-03-13T08:20:34Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:11:18Z",
-                "completed_at": "2026-03-13T08:11:19Z"
+                "started_at": "2026-03-13T08:20:34Z",
+                "completed_at": "2026-03-13T08:20:35Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:11:19Z",
-                "completed_at": "2026-03-13T08:11:19Z"
+                "started_at": "2026-03-13T08:20:35Z",
+                "completed_at": "2026-03-13T08:20:35Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-03-13T08:11:19Z",
-                "completed_at": "2026-03-13T08:11:19Z"
+                "started_at": "2026-03-13T08:20:35Z",
+                "completed_at": "2026-03-13T08:20:35Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 6,
-                "started_at": "2026-03-13T08:11:19Z",
-                "completed_at": "2026-03-13T08:11:19Z"
+                "started_at": "2026-03-13T08:20:35Z",
+                "completed_at": "2026-03-13T08:20:35Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:11:19Z",
-                "completed_at": "2026-03-13T08:11:23Z"
+                "started_at": "2026-03-13T08:20:35Z",
+                "completed_at": "2026-03-13T08:20:39Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "failure",
                 "number": 8,
-                "started_at": "2026-03-13T08:11:23Z",
-                "completed_at": "2026-03-13T08:14:52Z"
+                "started_at": "2026-03-13T08:20:39Z",
+                "completed_at": "2026-03-13T08:21:42Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 9,
-                "started_at": "2026-03-13T08:14:52Z",
-                "completed_at": "2026-03-13T08:14:52Z"
+                "started_at": "2026-03-13T08:21:42Z",
+                "completed_at": "2026-03-13T08:21:42Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:14:52Z",
-                "completed_at": "2026-03-13T08:14:52Z"
+                "started_at": "2026-03-13T08:21:42Z",
+                "completed_at": "2026-03-13T08:21:42Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:14:52Z",
-                "completed_at": "2026-03-13T08:14:52Z"
+                "started_at": "2026-03-13T08:21:42Z",
+                "completed_at": "2026-03-13T08:21:42Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:14:52Z",
-                "completed_at": "2026-03-13T08:14:52Z"
+                "started_at": "2026-03-13T08:21:42Z",
+                "completed_at": "2026-03-13T08:21:42Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187170",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557323",
         "labels": [
             "ubuntu-24.04"
         ],
-        "runner_id": 1000017246,
-        "runner_name": "GitHub Actions 1000017246",
+        "runner_id": 1000017384,
+        "runner_name": "GitHub Actions 1000017384",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 66922187205,
-        "run_id": 23042010582,
+        "id": 66922557306,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-JxQ",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187205",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187205",
-        "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:02Z",
-        "completed_at": "2026-03-13T08:14:38Z",
-        "name": "Boost-chrono gcc-14-cxx17-fpic ubuntu-24.04",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2026-03-13T08:11:03Z",
-                "completed_at": "2026-03-13T08:11:04Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2026-03-13T08:11:04Z",
-                "completed_at": "2026-03-13T08:11:08Z"
-            },
-            {
-                "name": "Download all workflow run artifacts",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2026-03-13T08:11:08Z",
-                "completed_at": "2026-03-13T08:11:09Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2026-03-13T08:11:09Z",
-                "completed_at": "2026-03-13T08:11:09Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 5,
-                "started_at": "2026-03-13T08:11:09Z",
-                "completed_at": "2026-03-13T08:11:09Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 6,
-                "started_at": "2026-03-13T08:11:09Z",
-                "completed_at": "2026-03-13T08:11:09Z"
-            },
-            {
-                "name": "Install requests python module for upload script",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2026-03-13T08:11:09Z",
-                "completed_at": "2026-03-13T08:11:12Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 8,
-                "started_at": "2026-03-13T08:11:12Z",
-                "completed_at": "2026-03-13T08:14:35Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 9,
-                "started_at": "2026-03-13T08:14:35Z",
-                "completed_at": "2026-03-13T08:14:35Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2026-03-13T08:14:35Z",
-                "completed_at": "2026-03-13T08:14:35Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 18,
-                "started_at": "2026-03-13T08:14:35Z",
-                "completed_at": "2026-03-13T08:14:35Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 19,
-                "started_at": "2026-03-13T08:14:35Z",
-                "completed_at": "2026-03-13T08:14:35Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187205",
-        "labels": [
-            "ubuntu-24.04"
-        ],
-        "runner_id": 1000017231,
-        "runner_name": "GitHub Actions 1000017231",
-        "runner_group_id": 0,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 66922187217,
-        "run_id": 23042010582,
-        "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
-        "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-J0Q",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187217",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187217",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUveg",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557306",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557306",
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:14:36Z",
-        "completed_at": "2026-03-13T08:20:16Z",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:36:45Z",
+        "completed_at": "2026-03-13T08:38:34Z",
         "name": "Boost-chrono ios-nocodesign-17-5-arm64-cxx17 macos-15",
         "steps": [
             {
@@ -642,123 +270,123 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:14:37Z",
-                "completed_at": "2026-03-13T08:14:39Z"
+                "started_at": "2026-03-13T08:36:46Z",
+                "completed_at": "2026-03-13T08:36:48Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:14:39Z",
-                "completed_at": "2026-03-13T08:14:45Z"
+                "started_at": "2026-03-13T08:36:48Z",
+                "completed_at": "2026-03-13T08:36:54Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:14:45Z",
-                "completed_at": "2026-03-13T08:14:46Z"
+                "started_at": "2026-03-13T08:36:54Z",
+                "completed_at": "2026-03-13T08:36:55Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:14:46Z",
-                "completed_at": "2026-03-13T08:14:46Z"
+                "started_at": "2026-03-13T08:36:55Z",
+                "completed_at": "2026-03-13T08:36:55Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-03-13T08:14:46Z",
-                "completed_at": "2026-03-13T08:14:46Z"
+                "started_at": "2026-03-13T08:36:55Z",
+                "completed_at": "2026-03-13T08:36:55Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 6,
-                "started_at": "2026-03-13T08:14:46Z",
-                "completed_at": "2026-03-13T08:14:46Z"
+                "started_at": "2026-03-13T08:36:55Z",
+                "completed_at": "2026-03-13T08:36:55Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:14:46Z",
-                "completed_at": "2026-03-13T08:14:49Z"
+                "started_at": "2026-03-13T08:36:55Z",
+                "completed_at": "2026-03-13T08:36:57Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "failure",
                 "number": 8,
-                "started_at": "2026-03-13T08:14:49Z",
-                "completed_at": "2026-03-13T08:20:13Z"
+                "started_at": "2026-03-13T08:36:57Z",
+                "completed_at": "2026-03-13T08:38:30Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 9,
-                "started_at": "2026-03-13T08:20:13Z",
-                "completed_at": "2026-03-13T08:20:13Z"
+                "started_at": "2026-03-13T08:38:30Z",
+                "completed_at": "2026-03-13T08:38:30Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:20:13Z",
-                "completed_at": "2026-03-13T08:20:13Z"
+                "started_at": "2026-03-13T08:38:30Z",
+                "completed_at": "2026-03-13T08:38:30Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:20:13Z",
-                "completed_at": "2026-03-13T08:20:14Z"
+                "started_at": "2026-03-13T08:38:30Z",
+                "completed_at": "2026-03-13T08:38:31Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:20:14Z",
-                "completed_at": "2026-03-13T08:20:14Z"
+                "started_at": "2026-03-13T08:38:31Z",
+                "completed_at": "2026-03-13T08:38:31Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187217",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557306",
         "labels": [
             "macos-15"
         ],
-        "runner_id": 1000017297,
-        "runner_name": "GitHub Actions 1000017297",
+        "runner_id": 1000017653,
+        "runner_name": "GitHub Actions 1000017653",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 66922187226,
-        "run_id": 23042010582,
+        "id": 66922557339,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-J2g",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187226",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187226",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUvmw",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557339",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557339",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:14:51Z",
-        "completed_at": "2026-03-13T08:21:44Z",
+        "conclusion": "failure",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:18:38Z",
+        "completed_at": "2026-03-13T08:20:35Z",
         "name": "Boost-chrono mingw-cxx17 windows-2022",
         "steps": [
             {
@@ -766,247 +394,371 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:14:51Z",
-                "completed_at": "2026-03-13T08:14:52Z"
+                "started_at": "2026-03-13T08:18:39Z",
+                "completed_at": "2026-03-13T08:18:40Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:14:52Z",
-                "completed_at": "2026-03-13T08:15:01Z"
+                "started_at": "2026-03-13T08:18:40Z",
+                "completed_at": "2026-03-13T08:18:51Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:15:01Z",
-                "completed_at": "2026-03-13T08:15:02Z"
+                "started_at": "2026-03-13T08:18:51Z",
+                "completed_at": "2026-03-13T08:18:52Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:15:02Z",
-                "completed_at": "2026-03-13T08:15:02Z"
+                "started_at": "2026-03-13T08:18:52Z",
+                "completed_at": "2026-03-13T08:18:53Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2026-03-13T08:15:02Z",
-                "completed_at": "2026-03-13T08:15:02Z"
+                "started_at": "2026-03-13T08:18:53Z",
+                "completed_at": "2026-03-13T08:18:53Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2026-03-13T08:15:02Z",
-                "completed_at": "2026-03-13T08:15:08Z"
+                "started_at": "2026-03-13T08:18:53Z",
+                "completed_at": "2026-03-13T08:18:58Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:15:08Z",
-                "completed_at": "2026-03-13T08:15:15Z"
+                "started_at": "2026-03-13T08:18:58Z",
+                "completed_at": "2026-03-13T08:19:05Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2026-03-13T08:15:15Z",
-                "completed_at": "2026-03-13T08:15:15Z"
+                "started_at": "2026-03-13T08:19:05Z",
+                "completed_at": "2026-03-13T08:19:05Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "failure",
                 "number": 9,
-                "started_at": "2026-03-13T08:15:15Z",
-                "completed_at": "2026-03-13T08:21:41Z"
+                "started_at": "2026-03-13T08:19:05Z",
+                "completed_at": "2026-03-13T08:20:31Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:21:41Z",
-                "completed_at": "2026-03-13T08:21:41Z"
+                "started_at": "2026-03-13T08:20:31Z",
+                "completed_at": "2026-03-13T08:20:31Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:21:41Z",
-                "completed_at": "2026-03-13T08:21:43Z"
+                "started_at": "2026-03-13T08:20:31Z",
+                "completed_at": "2026-03-13T08:20:33Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:21:43Z",
-                "completed_at": "2026-03-13T08:21:43Z"
+                "started_at": "2026-03-13T08:20:33Z",
+                "completed_at": "2026-03-13T08:20:33Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187226",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557339",
         "labels": [
             "windows-2022"
         ],
-        "runner_id": 1000017304,
-        "runner_name": "GitHub Actions 1000017304",
+        "runner_id": 1000017348,
+        "runner_name": "GitHub Actions 1000017348",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 66922187203,
-        "run_id": 23042010582,
+        "id": 66922557337,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-Jww",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187203",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187203",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUvmQ",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557337",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557337",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:02Z",
-        "completed_at": "2026-03-13T08:18:01Z",
-        "name": "Boost-chrono vs-17-2022-win64-sdk-10-0-22000-0-cxx17 windows-2022",
+        "conclusion": "failure",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:16:17Z",
+        "completed_at": "2026-03-13T08:18:26Z",
+        "name": "Boost-chrono msys-cxx17 windows-2022",
         "steps": [
             {
                 "name": "Set up job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:11:03Z",
-                "completed_at": "2026-03-13T08:11:05Z"
+                "started_at": "2026-03-13T08:16:18Z",
+                "completed_at": "2026-03-13T08:16:19Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:11:05Z",
-                "completed_at": "2026-03-13T08:11:16Z"
+                "started_at": "2026-03-13T08:16:19Z",
+                "completed_at": "2026-03-13T08:16:37Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:11:16Z",
-                "completed_at": "2026-03-13T08:11:17Z"
+                "started_at": "2026-03-13T08:16:37Z",
+                "completed_at": "2026-03-13T08:16:37Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:11:17Z",
-                "completed_at": "2026-03-13T08:11:17Z"
+                "started_at": "2026-03-13T08:16:37Z",
+                "completed_at": "2026-03-13T08:16:38Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2026-03-13T08:11:17Z",
-                "completed_at": "2026-03-13T08:11:17Z"
+                "started_at": "2026-03-13T08:16:38Z",
+                "completed_at": "2026-03-13T08:16:38Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2026-03-13T08:11:17Z",
-                "completed_at": "2026-03-13T08:11:22Z"
+                "started_at": "2026-03-13T08:16:38Z",
+                "completed_at": "2026-03-13T08:16:44Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:11:22Z",
-                "completed_at": "2026-03-13T08:11:29Z"
+                "started_at": "2026-03-13T08:16:44Z",
+                "completed_at": "2026-03-13T08:16:51Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2026-03-13T08:11:29Z",
-                "completed_at": "2026-03-13T08:11:29Z"
+                "started_at": "2026-03-13T08:16:51Z",
+                "completed_at": "2026-03-13T08:16:51Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "failure",
                 "number": 9,
-                "started_at": "2026-03-13T08:11:29Z",
-                "completed_at": "2026-03-13T08:17:57Z"
+                "started_at": "2026-03-13T08:16:51Z",
+                "completed_at": "2026-03-13T08:18:23Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:17:57Z",
-                "completed_at": "2026-03-13T08:17:57Z"
+                "started_at": "2026-03-13T08:18:23Z",
+                "completed_at": "2026-03-13T08:18:23Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:17:57Z",
-                "completed_at": "2026-03-13T08:17:59Z"
+                "started_at": "2026-03-13T08:18:23Z",
+                "completed_at": "2026-03-13T08:18:24Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:17:59Z",
-                "completed_at": "2026-03-13T08:17:59Z"
+                "started_at": "2026-03-13T08:18:24Z",
+                "completed_at": "2026-03-13T08:18:24Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187203",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557337",
         "labels": [
             "windows-2022"
         ],
-        "runner_id": 1000017257,
-        "runner_name": "GitHub Actions 1000017257",
+        "runner_id": 1000017321,
+        "runner_name": "GitHub Actions 1000017321",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 66922187206,
-        "run_id": 23042010582,
+        "id": 66922557294,
+        "run_id": 23042102669,
         "workflow_name": "CI",
-        "head_branch": "misc/rebase-huntergate-to-master",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042010582",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlN-Jxg",
-        "head_sha": "9d8a155fa008d5687255a6d6cfeaa1c1580bc2d2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922187206",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042010582/job/66922187206",
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUvbg",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557294",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557294",
         "status": "completed",
-        "conclusion": "success",
-        "created_at": "2026-03-13T08:10:59Z",
-        "started_at": "2026-03-13T08:11:01Z",
-        "completed_at": "2026-03-13T08:18:11Z",
+        "conclusion": "failure",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:17:44Z",
+        "completed_at": "2026-03-13T08:19:45Z",
+        "name": "Boost-chrono ninja-vs-17-2022-win64-cxx17 windows-2022",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-03-13T08:17:45Z",
+                "completed_at": "2026-03-13T08:17:46Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-03-13T08:17:46Z",
+                "completed_at": "2026-03-13T08:17:56Z"
+            },
+            {
+                "name": "Download all workflow run artifacts",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2026-03-13T08:17:56Z",
+                "completed_at": "2026-03-13T08:17:57Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-03-13T08:17:57Z",
+                "completed_at": "2026-03-13T08:17:57Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2026-03-13T08:17:57Z",
+                "completed_at": "2026-03-13T08:17:57Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-03-13T08:17:57Z",
+                "completed_at": "2026-03-13T08:18:03Z"
+            },
+            {
+                "name": "Install requests python module for upload script",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2026-03-13T08:18:03Z",
+                "completed_at": "2026-03-13T08:18:10Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2026-03-13T08:18:10Z",
+                "completed_at": "2026-03-13T08:18:10Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "failure",
+                "number": 9,
+                "started_at": "2026-03-13T08:18:10Z",
+                "completed_at": "2026-03-13T08:19:42Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 17,
+                "started_at": "2026-03-13T08:19:42Z",
+                "completed_at": "2026-03-13T08:19:42Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 18,
+                "started_at": "2026-03-13T08:19:42Z",
+                "completed_at": "2026-03-13T08:19:44Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 19,
+                "started_at": "2026-03-13T08:19:44Z",
+                "completed_at": "2026-03-13T08:19:44Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557294",
+        "labels": [
+            "windows-2022"
+        ],
+        "runner_id": 1000017335,
+        "runner_name": "GitHub Actions 1000017335",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 66922557300,
+        "run_id": 23042102669,
+        "workflow_name": "CI",
+        "head_branch": "tasks/hyp-22804-update-python-2",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
+        "run_attempt": 1,
+        "node_id": "CR_kwDONbfIZs8AAAAPlOUvdA",
+        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557300",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557300",
+        "status": "completed",
+        "conclusion": "failure",
+        "created_at": "2026-03-13T08:14:35Z",
+        "started_at": "2026-03-13T08:14:54Z",
+        "completed_at": "2026-03-13T08:17:11Z",
         "name": "Boost-chrono vs-17-2022-win64-store-10-cxx17 windows-2022",
         "steps": [
             {
@@ -1014,104 +766,104 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:11:02Z",
-                "completed_at": "2026-03-13T08:11:03Z"
+                "started_at": "2026-03-13T08:14:55Z",
+                "completed_at": "2026-03-13T08:14:57Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:11:03Z",
-                "completed_at": "2026-03-13T08:11:12Z"
+                "started_at": "2026-03-13T08:14:57Z",
+                "completed_at": "2026-03-13T08:15:09Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:11:12Z",
-                "completed_at": "2026-03-13T08:11:13Z"
+                "started_at": "2026-03-13T08:15:09Z",
+                "completed_at": "2026-03-13T08:15:10Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:11:13Z",
-                "completed_at": "2026-03-13T08:11:13Z"
+                "started_at": "2026-03-13T08:15:10Z",
+                "completed_at": "2026-03-13T08:15:10Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2026-03-13T08:11:13Z",
-                "completed_at": "2026-03-13T08:11:13Z"
+                "started_at": "2026-03-13T08:15:10Z",
+                "completed_at": "2026-03-13T08:15:10Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2026-03-13T08:11:13Z",
-                "completed_at": "2026-03-13T08:11:19Z"
+                "started_at": "2026-03-13T08:15:10Z",
+                "completed_at": "2026-03-13T08:15:17Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:11:19Z",
-                "completed_at": "2026-03-13T08:11:26Z"
+                "started_at": "2026-03-13T08:15:17Z",
+                "completed_at": "2026-03-13T08:15:24Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2026-03-13T08:11:26Z",
-                "completed_at": "2026-03-13T08:11:26Z"
+                "started_at": "2026-03-13T08:15:24Z",
+                "completed_at": "2026-03-13T08:15:24Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "failure",
                 "number": 9,
-                "started_at": "2026-03-13T08:11:26Z",
-                "completed_at": "2026-03-13T08:18:08Z"
+                "started_at": "2026-03-13T08:15:24Z",
+                "completed_at": "2026-03-13T08:17:08Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
-                "conclusion": "success",
+                "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:18:08Z",
-                "completed_at": "2026-03-13T08:18:08Z"
+                "started_at": "2026-03-13T08:17:08Z",
+                "completed_at": "2026-03-13T08:17:08Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:18:08Z",
-                "completed_at": "2026-03-13T08:18:09Z"
+                "started_at": "2026-03-13T08:17:08Z",
+                "completed_at": "2026-03-13T08:17:09Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:18:09Z",
-                "completed_at": "2026-03-13T08:18:09Z"
+                "started_at": "2026-03-13T08:17:09Z",
+                "completed_at": "2026-03-13T08:17:09Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922187206",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557300",
         "labels": [
             "windows-2022"
         ],
-        "runner_id": 1000017258,
-        "runner_name": "GitHub Actions 1000017258",
+        "runner_id": 1000017305,
+        "runner_name": "GitHub Actions 1000017305",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     }
