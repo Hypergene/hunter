@@ -1,0 +1,94 @@
+[
+    {
+        "id": 66920073744,
+        "run_id": 23041327677,
+        "workflow_name": "CI",
+        "head_branch": "misc/rebase-against-cppm-master",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23041327677",
+        "run_attempt": 1,
+        "node_id": "CR_kwDONbfIZs8AAAAPlL9KEA",
+        "head_sha": "f45e651080f8f834727a5bab6edfd8d4ea5e91f5",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66920073744",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23041327677/job/66920073744",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-03-13T07:47:51Z",
+        "started_at": "2026-03-13T07:47:53Z",
+        "completed_at": "2026-03-13T07:48:13Z",
+        "name": "check_urls",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2026-03-13T07:47:54Z",
+                "completed_at": "2026-03-13T07:47:55Z"
+            },
+            {
+                "name": "Git checkout",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2026-03-13T07:47:55Z",
+                "completed_at": "2026-03-13T07:47:56Z"
+            },
+            {
+                "name": "Manual dispatch, get project name from input",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 3,
+                "started_at": "2026-03-13T07:47:56Z",
+                "completed_at": "2026-03-13T07:47:56Z"
+            },
+            {
+                "name": "Get changed files and save them to ${HOME}/files.json",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2026-03-13T07:47:56Z",
+                "completed_at": "2026-03-13T07:47:56Z"
+            },
+            {
+                "name": "Install dependencies",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2026-03-13T07:47:56Z",
+                "completed_at": "2026-03-13T07:48:10Z"
+            },
+            {
+                "name": "Check changed projects for working URLs",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2026-03-13T07:48:10Z",
+                "completed_at": "2026-03-13T07:48:12Z"
+            },
+            {
+                "name": "Post Git checkout",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 12,
+                "started_at": "2026-03-13T07:48:12Z",
+                "completed_at": "2026-03-13T07:48:12Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 13,
+                "started_at": "2026-03-13T07:48:12Z",
+                "completed_at": "2026-03-13T07:48:12Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66920073744",
+        "labels": [
+            "ubuntu-latest"
+        ],
+        "runner_id": 1000017061,
+        "runner_name": "GitHub Actions 1000017061",
+        "runner_group_id": 0,
+        "runner_group_name": "GitHub Actions"
+    }
+]
