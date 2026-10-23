@@ -1,20 +1,20 @@
 [
     {
-        "id": 66922557350,
-        "run_id": 23042102669,
+        "id": 120406858224,
+        "run_id": 39951500248,
         "workflow_name": "CI",
-        "head_branch": "tasks/hyp-22804-update-python-2",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
+        "head_branch": "tasks/hyp-25125",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/39951500248",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlOUvpg",
-        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557350",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557350",
+        "node_id": "CR_kwDONbfIZs8AAAAcCM7Z8A",
+        "head_sha": "3b643ad5114ddf3314a7c55ff8105bd989471f41",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/120406858224",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/39951500248/job/120406858224",
         "status": "completed",
         "conclusion": "failure",
-        "created_at": "2026-03-13T08:14:35Z",
-        "started_at": "2026-03-13T08:23:39Z",
-        "completed_at": "2026-03-13T08:24:52Z",
+        "created_at": "2026-10-23T12:11:57Z",
+        "started_at": "2026-10-23T12:12:01Z",
+        "completed_at": "2026-10-23T12:13:42Z",
         "name": "Boost-contract ios-nocodesign-17-5-arm64-cxx17 macos-15",
         "steps": [
             {
@@ -22,228 +22,104 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-03-13T08:23:39Z",
-                "completed_at": "2026-03-13T08:23:41Z"
+                "started_at": "2026-10-23T12:12:02Z",
+                "completed_at": "2026-10-23T12:12:03Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-03-13T08:23:41Z",
-                "completed_at": "2026-03-13T08:23:46Z"
+                "started_at": "2026-10-23T12:12:03Z",
+                "completed_at": "2026-10-23T12:12:08Z"
             },
             {
                 "name": "Download all workflow run artifacts",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2026-03-13T08:23:46Z",
-                "completed_at": "2026-03-13T08:23:47Z"
+                "started_at": "2026-10-23T12:12:08Z",
+                "completed_at": "2026-10-23T12:12:09Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-03-13T08:23:47Z",
-                "completed_at": "2026-03-13T08:23:47Z"
+                "started_at": "2026-10-23T12:12:09Z",
+                "completed_at": "2026-10-23T12:12:09Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-03-13T08:23:47Z",
-                "completed_at": "2026-03-13T08:23:47Z"
+                "started_at": "2026-10-23T12:12:09Z",
+                "completed_at": "2026-10-23T12:12:09Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 6,
-                "started_at": "2026-03-13T08:23:47Z",
-                "completed_at": "2026-03-13T08:23:47Z"
+                "started_at": "2026-10-23T12:12:09Z",
+                "completed_at": "2026-10-23T12:12:09Z"
             },
             {
                 "name": "Install requests python module for upload script",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2026-03-13T08:23:47Z",
-                "completed_at": "2026-03-13T08:23:48Z"
+                "started_at": "2026-10-23T12:12:09Z",
+                "completed_at": "2026-10-23T12:12:12Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "failure",
                 "number": 8,
-                "started_at": "2026-03-13T08:23:48Z",
-                "completed_at": "2026-03-13T08:24:49Z"
+                "started_at": "2026-10-23T12:12:12Z",
+                "completed_at": "2026-10-23T12:13:38Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 9,
-                "started_at": "2026-03-13T08:24:49Z",
-                "completed_at": "2026-03-13T08:24:49Z"
+                "started_at": "2026-10-23T12:13:38Z",
+                "completed_at": "2026-10-23T12:13:38Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 17,
-                "started_at": "2026-03-13T08:24:49Z",
-                "completed_at": "2026-03-13T08:24:49Z"
+                "started_at": "2026-10-23T12:13:38Z",
+                "completed_at": "2026-10-23T12:13:38Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 18,
-                "started_at": "2026-03-13T08:24:49Z",
-                "completed_at": "2026-03-13T08:24:49Z"
+                "started_at": "2026-10-23T12:13:38Z",
+                "completed_at": "2026-10-23T12:13:39Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 19,
-                "started_at": "2026-03-13T08:24:49Z",
-                "completed_at": "2026-03-13T08:24:50Z"
+                "started_at": "2026-10-23T12:13:39Z",
+                "completed_at": "2026-10-23T12:13:40Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557350",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/120406858224",
         "labels": [
             "macos-15"
         ],
-        "runner_id": 1000017446,
-        "runner_name": "GitHub Actions 1000017446",
-        "runner_group_id": 0,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 66922557356,
-        "run_id": 23042102669,
-        "workflow_name": "CI",
-        "head_branch": "tasks/hyp-22804-update-python-2",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/23042102669",
-        "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAPlOUvrA",
-        "head_sha": "aeda3d6f631a15ba0210a3c3de09beaa13ccfae4",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/66922557356",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/23042102669/job/66922557356",
-        "status": "completed",
-        "conclusion": "failure",
-        "created_at": "2026-03-13T08:14:35Z",
-        "started_at": "2026-03-13T08:21:15Z",
-        "completed_at": "2026-03-13T08:23:15Z",
-        "name": "Boost-contract ninja-vs-17-2022-win64-cxx17 windows-2022",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2026-03-13T08:21:15Z",
-                "completed_at": "2026-03-13T08:21:17Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2026-03-13T08:21:17Z",
-                "completed_at": "2026-03-13T08:21:26Z"
-            },
-            {
-                "name": "Download all workflow run artifacts",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2026-03-13T08:21:26Z",
-                "completed_at": "2026-03-13T08:21:27Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2026-03-13T08:21:27Z",
-                "completed_at": "2026-03-13T08:21:27Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 5,
-                "started_at": "2026-03-13T08:21:27Z",
-                "completed_at": "2026-03-13T08:21:27Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 6,
-                "started_at": "2026-03-13T08:21:27Z",
-                "completed_at": "2026-03-13T08:21:33Z"
-            },
-            {
-                "name": "Install requests python module for upload script",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2026-03-13T08:21:33Z",
-                "completed_at": "2026-03-13T08:21:40Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 8,
-                "started_at": "2026-03-13T08:21:40Z",
-                "completed_at": "2026-03-13T08:21:40Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "failure",
-                "number": 9,
-                "started_at": "2026-03-13T08:21:40Z",
-                "completed_at": "2026-03-13T08:23:12Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 17,
-                "started_at": "2026-03-13T08:23:12Z",
-                "completed_at": "2026-03-13T08:23:12Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 18,
-                "started_at": "2026-03-13T08:23:12Z",
-                "completed_at": "2026-03-13T08:23:14Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 19,
-                "started_at": "2026-03-13T08:23:14Z",
-                "completed_at": "2026-03-13T08:23:14Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/66922557356",
-        "labels": [
-            "windows-2022"
-        ],
-        "runner_id": 1000017396,
-        "runner_name": "GitHub Actions 1000017396",
+        "runner_id": 1000113895,
+        "runner_name": "GitHub Actions 1000113895",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     }
