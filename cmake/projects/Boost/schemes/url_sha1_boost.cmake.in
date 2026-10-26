@@ -70,6 +70,14 @@ if(CMAKE_HOST_WIN32)
     configure_file("@HUNTER_PACKAGE_SCRIPT_DIR@/patched_boostrap.bat.in" "@HUNTER_PACKAGE_DOWNLOAD_DIR@/patched_boostrap.bat")
     set(patch_cmd "@CMAKE_COMMAND@" -E copy "@HUNTER_PACKAGE_DOWNLOAD_DIR@/patched_boostrap.bat" "@HUNTER_PACKAGE_SOURCE_DIR@/patched_boostrap.bat")
     set(bootstrap_cmd "patched_boostrap.bat")
+    if("@HUNTER_Boost_VERSION@" VERSION_GREATER_EQUAL 1.90.0)
+      # MSBuild fails the step on the "error:" line b2 prints for Boost.Histogram although b2 succeeds
+      set(
+          install_cmd
+          "@CMAKE_COMMAND@" -P "@HUNTER_PACKAGE_SCRIPT_DIR@/run_b2.cmake" --
+          "@HUNTER_PACKAGE_SOURCE_DIR@/b2.exe"
+      )
+    endif()
   elseif("@MSYS@")
     set(install_cmd "./b2")
     set(patch_cmd "@CMAKE_COMMAND@" -E echo "Dummy patch command")
