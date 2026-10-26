@@ -38,6 +38,19 @@ hunter_assert_not_empty_string("@HUNTER_TLS_VERIFY@")
 # get list of boost components for given version
 hunter_get_boost_libs(VERSION "@HUNTER_Boost_VERSION@" LIBS boost_libs)
 
+# b2 only accepts --without-<lib> for libraries that have something to build
+if("@HUNTER_Boost_VERSION@" VERSION_GREATER_EQUAL 1.90.0)
+  list(
+      REMOVE_ITEM boost_libs
+      any asio assert beast bimap bind compat container_hash conversion core
+      coroutine2 crc describe detail dll endian flyweight function
+      function_types geometry hana heap integer interprocess intrusive
+      iterator lambda2 lexical_cast lockfree move mp11 msm multi_index mysql
+      optional outcome parameter pfr poly_collection predef ratio redis scope
+      signals2 smart_ptr stl_interfaces throw_exception tuple type_index
+      unordered uuid variant variant2 winapi
+  )
+endif()
 # MinGW 1.55 is broken
 string(REGEX MATCH "1.55.0*" version_1_55 "@HUNTER_Boost_VERSION@")
 if(version_1_55 AND MINGW)
