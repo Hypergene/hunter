@@ -1,20 +1,20 @@
 [
     {
-        "id": 122177180327,
-        "run_id": 40500648231,
+        "id": 122178455551,
+        "run_id": 40501030009,
         "workflow_name": "CI",
-        "head_branch": "tasks/hyp-25125",
-        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/40500648231",
+        "head_branch": "huntergate",
+        "run_url": "https://api.github.com/repos/Hypergene/hunter/actions/runs/40501030009",
         "run_attempt": 1,
-        "node_id": "CR_kwDONbfIZs8AAAAcclPSpw",
-        "head_sha": "b78fff0e8af6757d55c4568273e64d1d683552a2",
-        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/122177180327",
-        "html_url": "https://github.com/Hypergene/hunter/actions/runs/40500648231/job/122177180327",
+        "node_id": "CR_kwDONbfIZs8AAAAccmdH_w",
+        "head_sha": "133a17397674f0c6cf6ad44b112d64a09d64317a",
+        "url": "https://api.github.com/repos/Hypergene/hunter/actions/jobs/122178455551",
+        "html_url": "https://github.com/Hypergene/hunter/actions/runs/40501030009/job/122178455551",
         "status": "completed",
         "conclusion": "success",
-        "created_at": "2026-10-27T12:02:22Z",
-        "started_at": "2026-10-27T12:02:24Z",
-        "completed_at": "2026-10-27T12:02:34Z",
+        "created_at": "2026-10-27T12:05:19Z",
+        "started_at": "2026-10-27T12:05:21Z",
+        "completed_at": "2026-10-27T12:05:30Z",
         "name": "check_urls",
         "steps": [
             {
@@ -22,72 +22,72 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2026-10-27T12:02:24Z",
-                "completed_at": "2026-10-27T12:02:25Z"
+                "started_at": "2026-10-27T12:05:21Z",
+                "completed_at": "2026-10-27T12:05:22Z"
             },
             {
                 "name": "Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2026-10-27T12:02:25Z",
-                "completed_at": "2026-10-27T12:02:26Z"
+                "started_at": "2026-10-27T12:05:22Z",
+                "completed_at": "2026-10-27T12:05:23Z"
             },
             {
                 "name": "Manual dispatch, get project name from input",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 3,
-                "started_at": "2026-10-27T12:02:26Z",
-                "completed_at": "2026-10-27T12:02:26Z"
+                "started_at": "2026-10-27T12:05:23Z",
+                "completed_at": "2026-10-27T12:05:23Z"
             },
             {
                 "name": "Get changed files and save them to ${HOME}/files.json",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2026-10-27T12:02:26Z",
-                "completed_at": "2026-10-27T12:02:27Z"
+                "started_at": "2026-10-27T12:05:23Z",
+                "completed_at": "2026-10-27T12:05:23Z"
             },
             {
                 "name": "Install dependencies",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2026-10-27T12:02:27Z",
-                "completed_at": "2026-10-27T12:02:30Z"
+                "started_at": "2026-10-27T12:05:23Z",
+                "completed_at": "2026-10-27T12:05:27Z"
             },
             {
                 "name": "Check changed projects for working URLs",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2026-10-27T12:02:30Z",
-                "completed_at": "2026-10-27T12:02:32Z"
+                "started_at": "2026-10-27T12:05:27Z",
+                "completed_at": "2026-10-27T12:05:29Z"
             },
             {
                 "name": "Post Git checkout",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 12,
-                "started_at": "2026-10-27T12:02:32Z",
-                "completed_at": "2026-10-27T12:02:33Z"
+                "started_at": "2026-10-27T12:05:29Z",
+                "completed_at": "2026-10-27T12:05:29Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 13,
-                "started_at": "2026-10-27T12:02:33Z",
-                "completed_at": "2026-10-27T12:02:33Z"
+                "started_at": "2026-10-27T12:05:29Z",
+                "completed_at": "2026-10-27T12:05:29Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/122177180327",
+        "check_run_url": "https://api.github.com/repos/Hypergene/hunter/check-runs/122178455551",
         "labels": [
             "ubuntu-latest"
         ],
-        "runner_id": 1000116814,
-        "runner_name": "GitHub Actions 1000116814",
+        "runner_id": 1000117083,
+        "runner_name": "GitHub Actions 1000117083",
         "runner_group_id": 0,
         "runner_group_name": "GitHub Actions"
     }
